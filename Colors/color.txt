@@ -1,0 +1,16 @@
+#8dbd8d (P_normal)
+#bef0bd (P_light)
+#5e8d5f (P_dark)
+
+#bd8dbd (Comp_normal)
+#d7bad7 (Comp_light)
+#953f97 (Comp_dark)
+
+#a5bd8d (Analogous 1)
+#8dbda5 (Analogous 2)
+
+#8dbdbd (Triadic 1)
+#8d8dbd (Triadic 2)
+
+
+#efe7df (background)

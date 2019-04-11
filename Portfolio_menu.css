@@ -9,6 +9,9 @@
 #fabCheckbox{
   display: none;
 }
+.fab:hover{
+  cursor: pointer;
+}
 
 .fab {
   position: absolute;
@@ -136,4 +139,53 @@
   top:-1rem;
   animation-delay: 0.2s;
   animation: flotando2 3s ease-in-out infinite, cambio_color_barras 2s ease-in-out infinite;
+}
+
+/*NAME*/
+.Name{
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  top: -0.5%;
+  left: 38%;
+  margin: 0;
+  animation: flotando2 6s ease-in-out infinite;
+}
+.Name h1{
+  font-family: Josefin_B;
+  font-size: 45px;
+  color: #953f97;
+}
+.Name:hover{
+  cursor: default;
+}
+/*POWERED_BY*/
+.powered_by{
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  top: 2%;
+  right: 10%;
+  animation: flotando2 6s ease-in-out infinite;
+}
+.powered_by:hover{
+  cursor: default;
+}
+.powered_by h3{
+  font-family: Josefin_Rg;
+  color: #953f97;
+}
+.powered_by h3 #Pb_span{
+  font-family: Josefin_Sb;
+  transition:color 1s ease;
+  color: #d7bad7;
+}
+.powered_by h3 #Pb_span:hover{
+  font-family: Josefin_Sb;
+  transition:color 1s ease;
+  color: #f16100;
+  cursor: pointer;
+}
+.powered_by h3 a{
+  text-decoration: none;
 }
